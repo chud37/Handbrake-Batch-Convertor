@@ -1,0 +1,14 @@
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\bin\Debug\Handbrake Batch Creator.exe.config
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\bin\Debug\Handbrake Batch Creator.exe
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\bin\Debug\Handbrake Batch Creator.pdb
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake Batch Creator.csprojAssemblyReference.cache
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake_Batch_Creator.Form1.resources
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake_Batch_Creator.Properties.Resources.resources
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake Batch Creator.csproj.GenerateResource.cache
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake Batch Creator.csproj.CoreCompileInputs.cache
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake Batch Creator.exe
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake Batch Creator.pdb
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\bin\Debug\Handbrake Batch Creator.exe.manifest
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\bin\Debug\Handbrake Batch Creator.application
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake Batch Creator.exe.manifest
+C:\Users\Richard.Gunn2\source\repos\Handbrake Batch Creator\Handbrake Batch Creator\obj\Debug\Handbrake Batch Creator.application

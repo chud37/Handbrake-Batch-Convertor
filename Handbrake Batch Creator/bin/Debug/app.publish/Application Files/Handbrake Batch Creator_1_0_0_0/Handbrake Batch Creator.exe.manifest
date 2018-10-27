@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Handbrake Batch Creator.exe" version="1.0.0.0" publicKeyToken="e2b123aee872021d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo_UMS_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Handbrake Batch Creator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Handbrake Batch Creator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Handbrake Batch Creator.exe" size="611272">
+      <assemblyIdentity name="Handbrake Batch Creator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pHLZ6kyu+kEERqd5igpYdWR0tm0bcPmAt6ZAHg5A3bA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Handbrake Batch Creator.exe.config" size="1230">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>As0oCyugnmNNClCeR6keS9cfgSuaK1vJBJKC6s4PnTw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo_UMS_icon.ico" size="275598">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kRbQGDXgNf47PA77onbwNWJ3yuAQ1GDTOD2ZUEEPP/A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AWM\Richard.Gunn2" issuerKeyHash="ec332d870384784311eeff04d31b5214c555615f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sSi+nSeRKzz7qpESk9SFMHVMh9EP/lVH1B+eDthQLAs=</DigestValue></Reference></SignedInfo><SignatureValue>dKUxMe7Jm8t7vWg8LdY8qNhrGXxTQKs8Klho1wG6zZ3DVm2/sLII1Enabb27ZBj3Fef0SNAdVpQVkAErvsKW8uAmshQXhF7wAnF1O1d19I7qGxGtKJEB93uYJOfY+FgsvrBb1C3jtYRIoDE5/iTg92Xn/Qw8EuEfPw2H0Rw5iCE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vBJzNT4EV4KgiO2/Om70Sm9A8nt95u1Z9o1gSnJFfmWJ97Gj1dSL/iKoJWIaRHghERfq9AklOkSGbKVaxXVMhFzLule0sklbvKxZgP26/uqhvddwKeUN3tKPwfzapTPTO5uYuU+SxAL8qE7O+gkfkquXdUoJ5f1nX1rwFQXYlwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0b2c50d80e9e1fd44755fe0fd1874c753085d4931291aafb3c2b91279dbe28b1" Description="" Url=""><as:assemblyIdentity name="Handbrake Batch Creator.exe" version="1.0.0.0" publicKeyToken="e2b123aee872021d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AWM\Richard.Gunn2</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nD6MH3q22qfBdf2yF4WEdT+EnNvJ43daiTGAGLpHtJY=</DigestValue></Reference></SignedInfo><SignatureValue>Gp2ewWrtJ5f/TlWA538L6If+hDZpPBs51qPrW+CpMxNWvdIX0NIX23eC1HiBBP51LY6tLAs88qxcEWeT1wS0HcAYe86YBBPExUE1saFUxPnoquH53WRGYxO0dQaUdl/qnlcZxXZyKlLIamHIbvGvc9OCs78ds1WSflaf/Uq3GR0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vBJzNT4EV4KgiO2/Om70Sm9A8nt95u1Z9o1gSnJFfmWJ97Gj1dSL/iKoJWIaRHghERfq9AklOkSGbKVaxXVMhFzLule0sklbvKxZgP26/uqhvddwKeUN3tKPwfzapTPTO5uYuU+SxAL8qE7O+gkfkquXdUoJ5f1nX1rwFQXYlwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQHFKG7t3cTolEl9gktvMwcjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQQBXAE0AXABSAGkAYwBoAGEAcgBkAC4ARwB1AG4AbgAyMB4XDTE4MTAxNzEzMjY0MloXDTE5MTAxNzE5MjY0MlowLTErMCkGA1UEAx4iAEEAVwBNAFwAUgBpAGMAaABhAHIAZAAuAEcAdQBuAG4AMjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvBJzNT4EV4KgiO2/Om70Sm9A8nt95u1Z9o1gSnJFfmWJ97Gj1dSL/iKoJWIaRHghERfq9AklOkSGbKVaxXVMhFzLule0sklbvKxZgP26/uqhvddwKeUN3tKPwfzapTPTO5uYuU+SxAL8qE7O+gkfkquXdUoJ5f1nX1rwFQXYlwECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCtUtO6ptHtV7xBZ8LAwdg6qeNYS1nQALRSwGKy1nW//5jFYU539zo/M/VxUK3G0qmAJhJG5KxP+zvrUSiISHA+5dpNmyvnZnN+GLSlG1xN0OaddmiAtWCKwtpEJ0BqQN9/QMGNYOg7HbwnAvFgd9mBWUJHZntA4jgoupZ34x+tqA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

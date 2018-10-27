@@ -1,0 +1,137 @@
+<QueueTask>
+  <ScannedSourcePath>{$source}</ScannedSourcePath>
+  <Status>Waiting</Status>
+  <Task>
+    <Source>{$source}</Source>
+    <Title>1</Title>
+    <Angle>1</Angle>
+    <PointToPointMode>Chapters</PointToPointMode>
+    <StartPoint>1</StartPoint>
+    <EndPoint>1</EndPoint>
+    <Destination>{$destination}</Destination>
+    <OutputFormat>Mp4</OutputFormat>
+    <OptimizeMP4>true</OptimizeMP4>
+    <IPod5GSupport>false</IPod5GSupport>
+    <Width>{$width}</Width>
+    <Height>{$height}</Height>
+    <MaxWidth xsi:nil=\"true\" />
+    <MaxHeight xsi:nil=\"true\" />
+    <Cropping>
+      <Top>0</Top>
+      <Bottom>0</Bottom>
+      <Left>0</Left>
+      <Right>0</Right>
+    </Cropping>
+    <HasCropping>false</HasCropping>
+    <Anamorphic>Loose</Anamorphic>
+    <DisplayWidth xsi:nil=\"true\" />
+    <KeepDisplayAspect>true</KeepDisplayAspect>
+    <PixelAspectX>1</PixelAspectX>
+    <PixelAspectY>1</PixelAspectY>
+    <Modulus>2</Modulus>
+    <DeinterlaceFilter>Off</DeinterlaceFilter>
+    <Deinterlace>Default</Deinterlace>
+    <CustomDeinterlace />
+    <Decomb>Default</Decomb>
+    <CombDetect>Off</CombDetect>
+    <Detelecine>Off</Detelecine>
+    <CustomDetelecine />
+    <Denoise>Off</Denoise>
+    <DenoisePreset>Medium</DenoisePreset>
+    <DenoiseTune>None</DenoiseTune>
+    <CustomDenoise />
+    <Deblock>4</Deblock>
+    <Grayscale>false</Grayscale>
+    <Rotation>0</Rotation>
+    <FlipVideo>false</FlipVideo>
+    <VideoEncodeRateType>AverageBitrate</VideoEncodeRateType>
+    <VideoEncoder>X264</VideoEncoder>
+    <FramerateMode>PFR</FramerateMode>
+    <Quality>29</Quality>
+    <VideoBitrate>500</VideoBitrate>
+    <TwoPass>true</TwoPass>
+    <TurboFirstPass>true</TurboFirstPass>
+    <Framerate>24</Framerate>
+    <AudioTracks>
+      <AudioTrack>
+        <DRC>0</DRC>
+        <Gain>0</Gain>
+        <MixDown>stereo</MixDown>
+        <Encoder>ffaac</Encoder>
+        <SampleRate>0</SampleRate>
+        <EncoderRateType>Bitrate</EncoderRateType>
+        <Bitrate>160</Bitrate>
+        <Quality>-1</Quality>
+        <IsDefault>false</IsDefault>
+        <SampleRateDisplayValue>Auto</SampleRateDisplayValue>
+        <ScannedTrack>
+          <TrackNumber>1</TrackNumber>
+          <Language>English</Language>
+          <LanguageCode>eng</LanguageCode>
+          <Description>English (AAC) (2.0 ch)</Description>
+          <Codec>65536</Codec>
+          <SampleRate>48000</SampleRate>
+          <Bitrate>128307</Bitrate>
+          <ChannelLayout>3</ChannelLayout>
+        </ScannedTrack>
+      </AudioTrack>
+    </AudioTracks>
+    <AllowedPassthruOptions>
+      <AudioAllowAACPass>true</AudioAllowAACPass>
+      <AudioAllowAC3Pass>true</AudioAllowAC3Pass>
+      <AudioAllowDTSHDPass>true</AudioAllowDTSHDPass>
+      <AudioAllowDTSPass>true</AudioAllowDTSPass>
+      <AudioAllowMP3Pass>true</AudioAllowMP3Pass>
+      <AudioAllowTrueHDPass>true</AudioAllowTrueHDPass>
+      <AudioAllowFlacPass>true</AudioAllowFlacPass>
+      <AudioAllowEAC3Pass>true</AudioAllowEAC3Pass>
+      <AudioEncoderFallback>Ac3</AudioEncoderFallback>
+    </AllowedPassthruOptions>
+    <SubtitleTracks />
+    <IncludeChapterMarkers>false</IncludeChapterMarkers>
+    <ChapterNames>
+      <ChapterMarker>
+        <ChapterNumber>1</ChapterNumber>
+        <Duration />
+        <ChapterName>Chapter 1</ChapterName>
+      </ChapterMarker>
+    </ChapterNames>
+    <AdvancedEncoderOptions />
+    <VideoProfile>
+      <DisplayName>Baseline</DisplayName>
+      <ShortName>baseline</ShortName>
+    </VideoProfile>
+    <VideoLevel>
+      <DisplayName>Auto</DisplayName>
+      <ShortName>auto</ShortName>
+    </VideoLevel>
+    <VideoPreset>
+      <DisplayName>Medium</DisplayName>
+      <ShortName>medium</ShortName>
+    </VideoPreset>
+    <VideoTunes>
+      <VideoTune>
+        <DisplayName>Film</DisplayName>
+        <ShortName>film</ShortName>
+      </VideoTune>
+    </VideoTunes>
+    <ExtraAdvancedArguments />
+    <ShowAdvancedTab>false</ShowAdvancedTab>
+    <MetaData />
+    <IsPreviewEncode>false</IsPreviewEncode>
+    <PreviewEncodeDuration xsi:nil=\"true\" />
+    <PreviewEncodeStartAt xsi:nil=\"true\" />
+  </Task>
+  <Configuration>
+    <IsDvdNavDisabled>false</IsDvdNavDisabled>
+    <DisableQuickSyncDecoding>false</DisableQuickSyncDecoding>
+    <UseQSVDecodeForNonQSVEnc>false</UseQSVDecodeForNonQSVEnc>
+    <ScalingMode>Lanczos</ScalingMode>
+    <PreviewScanCount>10</PreviewScanCount>
+    <Verbosity>1</Verbosity>
+    <MinScanDuration>10</MinScanDuration>
+    <SaveLogToCopyDirectory>false</SaveLogToCopyDirectory>
+    <SaveLogWithVideo>false</SaveLogWithVideo>
+    <SaveLogCopyDirectory />
+  </Configuration>
+</QueueTask>
