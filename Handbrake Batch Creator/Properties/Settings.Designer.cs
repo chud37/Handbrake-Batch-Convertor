@@ -49,7 +49,7 @@ namespace Handbrake_Batch_Creator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public int number_of_files {
             get {
                 return ((int)(this["number_of_files"]));
